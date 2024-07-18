@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Me Namora?!</title>
+        <link rel="shortcut icon" href="assets/css/images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- CSS -->
+        <link rel="stylesheet" href="assets/css/main_final.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome-animation.min.css" >
+
+	</head>
+	<body class="loading">
+		<!-- Música de Fundo -->
+        <audio src="assets/audio/ThoseEyes.mp3" controls autoplay loop></audio>
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+                <!-- Header -->
+				<header id="header">
+				    <h1>Obrigado Princesa!</h1>
+				    <p>"Porque todas as pequenas coisas que você faz"</p>
+				    <p>"São o que me lembram por que me apaixonei por você"</p>
+				    <p>"E quando estamos separados e eu sinto sua falta"</p>
+				    <p>"Eu fecho meus olhos e tudo que vejo é você"</p>
+					<p>"E as pequenas coisas que você faz"</p>
+				    <nav>
+				        <ul>
+                            <li><a class="icon fa-heart faa-pulse animated" href="final.html"><span class="label">heart</span></a></li>
+                        </ul>
+				    </nav>
+				</header>
+				<!-- Footer -->
+				<footer id="footer">
+				    <p> Ruth Gomes &ensp;<span class="icon fa-heart"></span>&ensp; Marcelo Borges </p>
+				</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
